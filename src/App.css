@@ -1,0 +1,22 @@
+nav ul {
+  list-style-type: none;
+  gap: 1rem;
+}
+
+nav ul li{
+  color:#FFF6E9;
+}
+
+a{
+  color:#FFF6E9
+}
+
+div {
+  padding: 1rem;
+}
+
+.navbar{
+  display: flex;
+  position: sticky;
+  top:0;  
+}
