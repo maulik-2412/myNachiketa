@@ -8,7 +8,7 @@ function Leaderboards() {
   useEffect(() => {
     const fetchLeaderboards = async () => {
       try {
-        const response = await axios.get("https://cors-anywhere.herokuapp.com/https://lichess.org/player");
+        const response = await axios.get("https://lichess.org/player");
         setLeaderboards(response.data); 
         setLoading(false); 
       } catch (error) {
